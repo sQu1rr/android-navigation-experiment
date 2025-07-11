@@ -16,7 +16,7 @@ class MainActivity : AppCompatActivity() {
         enableEdgeToEdge()
 
         val args = HelloWorldFragmentArgs.fromSavedStateHandle(SavedStateHandle())
-        Log.d("MainActivity", "ARG: ${args.arg}")
+        Log.d("MainActivity", "ARG WORKS: ${args.arg}")
 
         setContentView(R.layout.activity_main)
 
